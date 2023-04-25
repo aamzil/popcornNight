@@ -1,0 +1,20 @@
+.slider {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 80px;
+
+}
+
+.slider__container img {
+    height: 50vh;
+    width: 100%;
+    transition: ease-in 0.2s;
+    cursor: pointer;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.slider__container img:hover {
+    opacity: 90%;
+
+}

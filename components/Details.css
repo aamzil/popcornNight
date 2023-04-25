@@ -1,0 +1,102 @@
+.details {
+    height: 100%;
+    position: relative;
+    z-index: 1;
+
+}
+
+.details__container {
+    position: relative;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-family: 'SF Pro Display', sans-serif;
+    display: flex;
+    padding-top: 120px;
+}
+
+.details__left {
+    width: 50%;
+
+}
+
+
+
+
+.details__left button {
+    cursor: pointer;
+    padding: 12px 30px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    background: rgb(204, 204, 204);
+    transition: ease-in 300ms;
+    margin-top: 20px;
+    font-family: 'SF Pro Display', sans-serif;
+
+}
+
+.details__left button:hover {
+
+    background: rgba(204, 204, 204, 0.788);
+}
+
+.details__left h1 {
+    font-size: 45px;
+    padding-bottom: 10px;
+    padding-top: 60px;
+}
+
+.details__left p {
+    font-weight: lighter;
+}
+
+
+.details__left span {
+    font-weight: bold;
+}
+
+.dark__overlay {
+    height: 100vh;
+    width: 100%;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(0deg, rgb(10, 10, 10) 10%, rgba(0, 0, 0, 0.521) 80%);
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+
+.details__right {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.details__right img {
+    border-radius: 20px;
+    width: 40%;
+
+}
+
+.player {
+    margin-top: 90px;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    .details__container .details__right {
+        display: none;
+    }
+
+    .details__left {
+        width: 100%;
+
+    }
+
+    .details__container {
+        padding-top: 70px;
+    }
+
+
+}

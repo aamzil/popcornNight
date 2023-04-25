@@ -1,0 +1,78 @@
+.heropage {
+    height: 100vh;
+    top: 0;
+    position: relative;
+    z-index: 1;
+}
+
+.heropage__container {
+    position: relative;
+    top: 30%;
+    padding-left: 40px;
+    padding-right: 40px;
+    max-width: 650px;
+    font-family: 'SF Pro Display', sans-serif;
+}
+
+.title {
+    font-size: 50px;
+    padding-bottom: 5px;
+}
+
+.overview {
+    font-size: 16px;
+    color: #bbb;
+}
+
+.heropage__buttons {
+    display: flex;
+    gap: 10px;
+    text-decoration: none;
+
+}
+
+.heropage__buttons a {
+
+    text-decoration: none;
+
+}
+
+.heropage__buttons button {
+    margin-top: 15px;
+    cursor: pointer;
+    padding: 14px 28px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    background: rgb(204, 204, 204);
+    transition: ease-in 300ms;
+    font-family: 'SF Pro Display', sans-serif;
+    display: flex;
+
+}
+
+.heropage__buttons button:hover {
+
+    background: rgba(204, 204, 204, 0.788);
+}
+
+
+.dark__overlay {
+    height: 100vh;
+    width: 100%;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(0deg, rgb(10, 10, 10) 10%, rgba(0, 0, 0, 0.322) 80%);
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+
+@media only screen and (max-width: 768px) {
+    .title {
+        font-size: 40px;
+    }
+
+    .heropage__container {
+        top: 25%;
+    }
+}

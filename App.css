@@ -1,0 +1,10 @@
+.app {
+  background: rgb(10, 10, 10);
+  color: #F1F1F1;
+  scroll-behavior: smooth;
+  padding-bottom: 10px;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}

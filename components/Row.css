@@ -1,0 +1,49 @@
+.row {
+    font-family: 'SF Pro Display', sans-serif;
+    padding-top: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.row__title {
+    font-size: 28px;
+    font-weight: lighter;
+
+}
+
+.row__container {
+
+    display: flex;
+    gap: 10px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    overflow: scroll;
+}
+
+
+.row__container img {
+    width: 18%;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: ease-in 0.2s;
+    position: static;
+}
+
+.row__container img:hover {
+    transform: scale(103%);
+}
+
+@media only screen and (max-width: 768px) {
+    .row__container img {
+        width: 50%;
+
+    }
+
+
+    .row__title {
+        font-size: 21px;
+        font-weight: lighter;
+
+    }
+
+}

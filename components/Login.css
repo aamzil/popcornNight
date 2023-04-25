@@ -1,0 +1,100 @@
+.login {
+    height: 100vh;
+    color: #F1F1F1;
+    font-family: 'SF Pro Display', sans-serif;
+    background-image: url(https://images.pexels.com/photos/7991582/pexels-photo-7991582.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+}
+
+.login__header {
+    padding: 20px;
+    position: absolute;
+    z-index: 999;
+}
+
+.login__header a {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.login__shadow {
+    height: 100vh;
+    width: 100%;
+    top: 0%;
+    position: fixed;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(0deg, rgb(10, 10, 10) 10%, rgba(0, 0, 0, 0.322) 50%);
+}
+
+.login form {
+    z-index: 999;
+    position: relative;
+    display: grid;
+    top: 15%;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #111;
+    padding: 40px;
+    font-family: 'SF Pro Display', sans-serif;
+    border-radius: 10px;
+}
+
+.login form h1 {
+    text-align: left;
+    color: #F1F1F1;
+    margin-bottom: 10px;
+}
+
+.login form label {
+    font-size: 18px;
+    padding-top: 10px;
+    margin-bottom: 5px;
+}
+
+.login form input {
+    padding: 15px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
+.login form button {
+    padding: 15px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    background: rgb(158, 33, 13);
+    font-family: 'SF Pro Display', sans-serif;
+    color: #F1F1F1;
+    cursor: pointer;
+    transition: ease-in 0.2s;
+}
+
+.login form .google {
+
+    border: 1px solid white;
+    background: inherit;
+    margin-top: 40px;
+
+}
+
+.login form .signin:hover {
+
+    background: rgba(158, 32, 13, 0.863);
+
+}
+
+.login form .or {
+    margin-top: 10px;
+    text-align: center;
+
+}
+
+.login form p {
+    padding-top: 10px;
+}

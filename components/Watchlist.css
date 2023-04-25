@@ -1,0 +1,26 @@
+.watchlist {
+    height: 100vh;
+
+}
+
+.watchlist__container {
+    padding-right: 40px;
+    padding-left: 40px;
+
+    padding-top: 15%;
+
+}
+
+.watchlist__container p {
+    font-family: 'SF Pro Display', sans-serif;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+}
+
+.watchlist__container img {
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: ease-in 0.2s;
+}
